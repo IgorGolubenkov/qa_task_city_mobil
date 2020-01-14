@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.google.samples.apps.iosched.tests.igor_city_mobile_task",
+    "children" : [ {
+      "name" : "initializationError",
+      "uid" : "a61249395ed8e31d",
+      "parentUid" : "e856a5c53b0af6047b7ebd527f512bc2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1578816799968,
+        "stop" : 1578816800047,
+        "duration" : 79
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "navigationValidTest",
+      "uid" : "d9031b905701602",
+      "parentUid" : "e856a5c53b0af6047b7ebd527f512bc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578828995675,
+        "stop" : 1578829002583,
+        "duration" : 6908
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.google.samples.apps.iosched.tests.igor_city_mobile_task"
+  } ]
+}

@@ -1,0 +1,7 @@
+#Tue Jan 14 17:34:08 MSK 2020
+base.0=/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/dex/stagingAndroidTest/mergeExtDexStagingAndroidTest/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/dex/stagingAndroidTest/mergeProjectDexStagingAndroidTest/out/classes.dex

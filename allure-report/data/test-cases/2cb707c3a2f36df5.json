@@ -1,0 +1,97 @@
+{
+  "uid" : "2cb707c3a2f36df5",
+  "name" : "navigationValidTest",
+  "fullName" : "com.google.samples.apps.iosched.tests.igor_city_mobile_task.NavigationTest.navigationValidTest",
+  "historyId" : "8e1396a71dc8aab938c43163cf0347d7",
+  "time" : {
+    "start" : 1578822440871,
+    "stop" : 1578822444989,
+    "duration" : 4118
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Позитивный тест навигации в приложении",
+      "time" : {
+        "start" : 1578822442855,
+        "stop" : 1578822443914,
+        "duration" : 1059
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открываем меню навигации",
+        "time" : {
+          "start" : 1578822443147,
+          "stop" : 1578822443914,
+          "duration" : 767
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Переходим на страницу \"Home\"",
+        "time" : {
+          "start" : 1578822443914,
+          "stop" : 1578822443914,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.google.samples.apps.iosched.tests.igor_city_mobile_task"
+  }, {
+    "name" : "testClass",
+    "value" : "com.google.samples.apps.iosched.tests.igor_city_mobile_task.NavigationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigationValidTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.google.samples.apps.iosched.tests.igor_city_mobile_task.NavigationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2cb707c3a2f36df5.json",
+  "parameterValues" : [ ]
+}

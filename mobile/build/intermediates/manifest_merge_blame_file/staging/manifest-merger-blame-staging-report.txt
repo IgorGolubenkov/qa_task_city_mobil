@@ -1,0 +1,604 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright 2018 Google LLC
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     https://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.google.samples.apps.iosched"
+19    android:versionCode="70153"
+20    android:versionName="7.0.15-staging" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="29" />
+24-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+26-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:21:5-76
+26-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:21:22-73
+27    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+27-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:22:5-76
+27-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:22:22-73
+28    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+28-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:23:5-79
+28-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:23:22-76
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:24:5-78
+29-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:24:22-76
+30    <uses-permission android:name="android.permission.INTERNET" />
+30-->[:ar] /Users/sibur/Work/Repositories/city-mobil/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:26:5-67
+30-->[:ar] /Users/sibur/Work/Repositories/city-mobil/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:26:22-64
+31    <uses-permission android:name="android.permission.CAMERA" />
+31-->[:ar] /Users/sibur/Work/Repositories/city-mobil/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:27:5-65
+31-->[:ar] /Users/sibur/Work/Repositories/city-mobil/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:27:22-62
+32    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+32-->[:ar] /Users/sibur/Work/Repositories/city-mobil/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:28:5-81
+32-->[:ar] /Users/sibur/Work/Repositories/city-mobil/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:28:22-78
+33
+34    <uses-feature
+34-->[com.google.android.gms:play-services-maps:16.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/68675c3b3ef7c3c75204cf855587c61f/jetified-play-services-maps-16.0.0/AndroidManifest.xml:26:5-28:35
+35        android:glEsVersion="0x00020000"
+35-->[com.google.android.gms:play-services-maps:16.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/68675c3b3ef7c3c75204cf855587c61f/jetified-play-services-maps-16.0.0/AndroidManifest.xml:27:9-41
+36        android:required="true" />
+36-->[com.google.android.gms:play-services-maps:16.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/68675c3b3ef7c3c75204cf855587c61f/jetified-play-services-maps-16.0.0/AndroidManifest.xml:28:9-32
+37
+38    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+38-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/f8f16d5e151eb03da9ed95a28d282d62/play-services-measurement-api-17.0.0/AndroidManifest.xml:24:5-68
+38-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/f8f16d5e151eb03da9ed95a28d282d62/play-services-measurement-api-17.0.0/AndroidManifest.xml:24:22-65
+39    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+39-->[com.google.firebase:firebase-iid:19.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cc006a10889bed60abc45e31db243d16/firebase-iid-19.0.1/AndroidManifest.xml:26:5-82
+39-->[com.google.firebase:firebase-iid:19.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cc006a10889bed60abc45e31db243d16/firebase-iid-19.0.1/AndroidManifest.xml:26:22-79
+40    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+40-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:26:5-110
+40-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:26:22-107
+41
+42    <application
+42-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:26:5-98:19
+43        android:name="com.google.samples.apps.iosched.MainApplication"
+43-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:27:9-40
+44        android:allowBackup="false"
+44-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:28:9-36
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.2.0-alpha02] /Users/sibur/.gradle/caches/transforms-2/files-2.1/f168a97840e7de9d60132d66486c6b38/core-1.2.0-alpha02/AndroidManifest.xml:24:18-86
+46        android:debuggable="true"
+47        android:icon="@mipmap/ic_launcher"
+47-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:29:9-43
+48        android:label="@string/app_name"
+48-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:30:9-41
+49        android:supportsRtl="true"
+49-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:31:9-35
+50        android:theme="@style/AppTheme" >
+50-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:32:9-40
+51
+52        <!-- Required for apps targeting API 28 and above and using Google Maps. -->
+53        <uses-library
+53-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:35:9-88
+54            android:name="org.apache.http.legacy"
+54-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:35:23-60
+55            android:required="false" />
+55-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:35:61-85
+56
+57        <meta-data
+57-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:37:9-81
+58            android:name="com.google.ar.core"
+58-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:37:20-53
+59            android:value="optional" />
+59-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:37:54-78
+60        <meta-data
+60-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:39:9-41:41
+61            android:name="com.google.ar.core.min_apk_version"
+61-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:40:13-62
+62            android:value="190128000" />
+62-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:41:13-38
+63
+64        <activity
+64-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:43:9-51:21
+65            android:name="com.google.samples.apps.iosched.ui.LauncherActivity"
+65-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:44:13-48
+66            android:theme="@style/AppTheme.Launcher" >
+66-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:45:13-53
+67
+68            <!-- This will have to be placed wherever the activity-alias is pointing to. -->
+69            <intent-filter>
+69-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:47:13-50:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:48:17-69
+70-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:48:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:49:17-77
+72-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:49:27-74
+73            </intent-filter>
+74        </activity>
+75        <activity android:name="com.google.samples.apps.iosched.ui.MainActivity" />
+75-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:53:9-54:47
+75-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:54:13-44
+76        <activity
+76-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:56:9-58:58
+77            android:name="com.google.samples.apps.iosched.ui.onboarding.OnboardingActivity"
+77-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:57:13-61
+78            android:theme="@style/AppTheme.Onboarding" />
+78-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:58:13-55
+79        <activity
+79-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:60:9-73:20
+80            android:name="com.google.samples.apps.iosched.ui.sessiondetail.SessionDetailActivity"
+80-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:61:13-67
+81            android:launchMode="singleTask"
+81-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:63:13-44
+82            android:parentActivityName="com.google.samples.apps.iosched.ui.MainActivity"
+82-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:62:13-58
+83            android:theme="@style/AppTheme.Detail" >
+83-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:64:13-51
+84            <intent-filter android:label="Session detail" >
+84-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:66:13-72:29
+84-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:66:28-58
+85                <action android:name="android.intent.action.VIEW" />
+85-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:67:17-69
+85-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:67:25-66
+86
+87                <category android:name="android.intent.category.DEFAULT" />
+87-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:68:17-76
+87-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:68:27-73
+88                <!-- Accepts URIs that begin with "iosched://sessionId” -->
+89                <data
+89-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:70:17-71:47
+90                    android:host="sessions"
+90-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:71:21-44
+91                    android:scheme="iosched" />
+91-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:70:23-47
+92            </intent-filter>
+93        </activity>
+94
+95        <meta-data
+95-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:75:9-77:57
+96            android:name="preloaded_fonts"
+96-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:76:13-43
+97            android:resource="@array/preloaded_fonts" />
+97-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:77:13-54
+98        <meta-data
+98-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:79:9-81:69
+99            android:name="com.google.android.gms.version"
+99-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:80:13-58
+100            android:value="@integer/google_play_services_version" />
+100-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:81:13-66
+101        <meta-data
+101-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:83:9-85:55
+102            android:name="com.google.android.geo.API_KEY"
+102-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:84:13-58
+103            android:value="@string/google_maps_key" />
+103-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:85:13-52
+104        <meta-data
+105            android:name="firebase_crashlytics_collection_enabled"
+105-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:88:13-67
+106            android:value="false" />
+106-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:89:13-50
+107
+108        <!--
+109             By default, these are not exported since they do not have an intent filter.
+110             However, explicitly saying exported="false" to communicate that these are not for
+111             other apps to call
+112        -->
+113        <receiver
+113-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:94:9-95:40
+114            android:name="com.google.samples.apps.iosched.shared.notifications.AlarmBroadcastReceiver"
+114-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:94:19-78
+115            android:exported="false" />
+115-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:95:13-37
+116        <receiver
+116-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:96:9-97:40
+117            android:name="com.google.samples.apps.iosched.shared.notifications.CancelNotificationBroadcastReceiver"
+117-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:96:19-91
+118            android:exported="false" />
+118-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:97:13-37
+119
+120        <activity
+120-->[:ar] /Users/sibur/Work/Repositories/city-mobil/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:31:9-34:74
+121            android:name="com.google.samples.apps.iosched.ar.ArActivity"
+121-->[:ar] /Users/sibur/Work/Repositories/city-mobil/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:32:13-73
+122            android:screenOrientation="portrait"
+122-->[:ar] /Users/sibur/Work/Repositories/city-mobil/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:33:13-49
+123            android:theme="@style/AppTheme.NoActionBar.BlackStatusBar" />
+123-->[:ar] /Users/sibur/Work/Repositories/city-mobil/ar/build/intermediates/library_manifest/staging/AndroidManifest.xml:34:13-71
+124
+125        <service
+125-->[:shared] /Users/sibur/Work/Repositories/city-mobil/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:31:9-33:72
+126            android:name="com.google.samples.apps.iosched.shared.data.job.ConferenceDataService"
+126-->[:shared] /Users/sibur/Work/Repositories/city-mobil/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:32:13-97
+127            android:permission="android.permission.BIND_JOB_SERVICE" />
+127-->[:shared] /Users/sibur/Work/Repositories/city-mobil/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:33:13-69
+128        <service
+128-->[:shared] /Users/sibur/Work/Repositories/city-mobil/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:34:9-40:19
+129            android:name="com.google.samples.apps.iosched.shared.fcm.IoschedFirebaseMessagingService"
+129-->[:shared] /Users/sibur/Work/Repositories/city-mobil/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:35:13-102
+130            android:exported="false" >
+130-->[:shared] /Users/sibur/Work/Repositories/city-mobil/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:36:13-37
+131            <intent-filter>
+131-->[:shared] /Users/sibur/Work/Repositories/city-mobil/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:37:13-39:29
+132                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+132-->[:shared] /Users/sibur/Work/Repositories/city-mobil/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:38:17-78
+132-->[:shared] /Users/sibur/Work/Repositories/city-mobil/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:38:25-75
+133            </intent-filter>
+134        </service>
+135
+136        <meta-data
+136-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:19:9-21:63
+137            android:name="com.facebook.sdk.ApplicationId"
+137-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:20:13-58
+138            android:value="@string/facebook_application_id" />
+138-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:21:13-60
+139
+140        <activity
+140-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:23:9-27:61
+141            android:name="com.firebase.ui.auth.KickoffActivity"
+141-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:24:13-64
+142            android:exported="false"
+142-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:25:13-37
+143            android:label=""
+143-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:26:13-29
+144            android:theme="@style/FirebaseUI.Transparent" />
+144-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:27:13-58
+145        <activity
+145-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:28:9-32:61
+146            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+146-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:29:13-76
+147            android:exported="false"
+147-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:30:13-37
+148            android:label=""
+148-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:31:13-29
+149            android:theme="@style/FirebaseUI.Transparent" />
+149-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:32:13-58
+150        <activity
+150-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:33:9-37:58
+151            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+151-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:34:13-81
+152            android:exported="false"
+152-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:35:13-37
+153            android:label="@string/fui_title_recover_password_activity"
+153-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:36:13-72
+154            android:windowSoftInputMode="adjustResize" />
+154-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:37:13-55
+155        <activity
+155-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:38:9-42:58
+156            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+156-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:39:13-71
+157            android:exported="false"
+157-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:40:13-37
+158            android:label="@string/fui_sign_in_default"
+158-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:41:13-56
+159            android:windowSoftInputMode="adjustResize" />
+159-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:42:13-55
+160        <activity
+160-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:43:9-47:77
+161            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+161-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:44:13-71
+162            android:exported="false"
+162-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:45:13-37
+163            android:label="@string/fui_sign_in_with_phone_number"
+163-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:46:13-66
+164            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+164-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:47:13-74
+165        <activity
+165-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:48:9-52:58
+166            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+166-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:49:13-76
+167            android:exported="false"
+167-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:50:13-37
+168            android:label="@string/fui_title_welcome_back_idp_prompt"
+168-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:51:13-70
+169            android:windowSoftInputMode="adjustResize" />
+169-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:52:13-55
+170        <activity
+170-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:53:9-57:58
+171            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+171-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:54:13-83
+172            android:exported="false"
+172-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:55:13-37
+173            android:label="@string/fui_title_welcome_back_password_prompt"
+173-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:56:13-75
+174            android:windowSoftInputMode="adjustResize" />
+174-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:57:13-55
+175        <activity
+175-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:58:9-61:65
+176            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+176-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:59:13-80
+177            android:exported="false"
+177-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:60:13-37
+178            android:label="@string/fui_default_toolbar_title" />
+178-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:61:13-62
+179        <activity
+179-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:62:9-66:48
+180            android:name="com.facebook.FacebookActivity"
+180-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:63:13-57
+181            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+181-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:64:13-96
+182            android:label="@string/app_name" />
+182-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:65:13-45
+183        <activity
+183-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:67:9-71:61
+184            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+184-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:68:13-86
+185            android:exported="false"
+185-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:69:13-37
+186            android:label=""
+186-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:70:13-29
+187            android:theme="@style/FirebaseUI.Transparent" />
+187-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:71:13-58
+188        <activity
+188-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:72:9-84:20
+189            android:name="com.facebook.CustomTabActivity"
+189-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:73:13-58
+190            android:exported="true" >
+190-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:74:13-36
+191            <intent-filter>
+191-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:76:13-83:29
+192                <action android:name="android.intent.action.VIEW" />
+192-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:67:17-69
+192-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:67:25-66
+193
+194                <category android:name="android.intent.category.DEFAULT" />
+194-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:68:17-76
+194-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:68:27-73
+195                <category android:name="android.intent.category.BROWSABLE" />
+195-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:80:17-78
+195-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:80:27-75
+196
+197                <data android:scheme="@string/facebook_login_protocol_scheme" />
+197-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:70:17-71:47
+197-->/Users/sibur/Work/Repositories/city-mobil/mobile/src/main/AndroidManifest.xml:70:23-47
+198            </intent-filter>
+199        </activity>
+200
+201        <provider
+201-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:86:9-90:38
+202            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+202-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:87:13-79
+203            android:authorities="com.google.samples.apps.iosched.authuiinitprovider"
+203-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:88:13-70
+204            android:exported="false"
+204-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:89:13-37
+205            android:initOrder="90" />
+205-->[com.firebaseui:firebase-ui-auth:4.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/AndroidManifest.xml:90:13-35
+206
+207        <service
+207-->[androidx.room:room-runtime:2.1.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/72030b4f04a1388f4af6a3134693c05b/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+208            android:name="androidx.room.MultiInstanceInvalidationService"
+208-->[androidx.room:room-runtime:2.1.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/72030b4f04a1388f4af6a3134693c05b/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+209            android:exported="false" />
+209-->[androidx.room:room-runtime:2.1.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/72030b4f04a1388f4af6a3134693c05b/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+210
+211        <provider
+211-->[com.crashlytics.sdk.android:crashlytics:2.9.8] /Users/sibur/.gradle/caches/transforms-2/files-2.1/706a80b15557c10082226e7a99894d5b/crashlytics-2.9.8/AndroidManifest.xml:12:9-16:38
+212            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+212-->[com.crashlytics.sdk.android:crashlytics:2.9.8] /Users/sibur/.gradle/caches/transforms-2/files-2.1/706a80b15557c10082226e7a99894d5b/crashlytics-2.9.8/AndroidManifest.xml:13:13-75
+213            android:authorities="com.google.samples.apps.iosched.crashlyticsinitprovider"
+213-->[com.crashlytics.sdk.android:crashlytics:2.9.8] /Users/sibur/.gradle/caches/transforms-2/files-2.1/706a80b15557c10082226e7a99894d5b/crashlytics-2.9.8/AndroidManifest.xml:14:13-75
+214            android:exported="false"
+214-->[com.crashlytics.sdk.android:crashlytics:2.9.8] /Users/sibur/.gradle/caches/transforms-2/files-2.1/706a80b15557c10082226e7a99894d5b/crashlytics-2.9.8/AndroidManifest.xml:15:13-37
+215            android:initOrder="90" />
+215-->[com.crashlytics.sdk.android:crashlytics:2.9.8] /Users/sibur/.gradle/caches/transforms-2/files-2.1/706a80b15557c10082226e7a99894d5b/crashlytics-2.9.8/AndroidManifest.xml:16:13-35
+216
+217        <service
+217-->[com.google.firebase:firebase-firestore:20.2.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/6b924f6c71d5805eee06f29bd97e9e24/jetified-firebase-firestore-20.2.0/AndroidManifest.xml:17:9-23:19
+218            android:name="com.google.firebase.components.ComponentDiscoveryService"
+218-->[com.google.firebase:firebase-firestore:20.2.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/6b924f6c71d5805eee06f29bd97e9e24/jetified-firebase-firestore-20.2.0/AndroidManifest.xml:18:13-84
+219            android:exported="false" >
+219-->[com.google.firebase:firebase-firestore:20.2.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/6b924f6c71d5805eee06f29bd97e9e24/jetified-firebase-firestore-20.2.0/AndroidManifest.xml:19:13-37
+220            <meta-data
+220-->[com.google.firebase:firebase-firestore:20.2.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/6b924f6c71d5805eee06f29bd97e9e24/jetified-firebase-firestore-20.2.0/AndroidManifest.xml:20:13-22:85
+221                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+221-->[com.google.firebase:firebase-firestore:20.2.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/6b924f6c71d5805eee06f29bd97e9e24/jetified-firebase-firestore-20.2.0/AndroidManifest.xml:21:17-111
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[com.google.firebase:firebase-firestore:20.2.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/6b924f6c71d5805eee06f29bd97e9e24/jetified-firebase-firestore-20.2.0/AndroidManifest.xml:22:17-82
+223            <meta-data
+223-->[com.google.firebase:firebase-auth:18.1.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/0f00945b4f3afdc9154e9a06df7817a2/firebase-auth-18.1.0/AndroidManifest.xml:36:13-38:85
+224                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+224-->[com.google.firebase:firebase-auth:18.1.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/0f00945b4f3afdc9154e9a06df7817a2/firebase-auth-18.1.0/AndroidManifest.xml:37:17-109
+225                android:value="com.google.firebase.components.ComponentRegistrar" />
+225-->[com.google.firebase:firebase-auth:18.1.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/0f00945b4f3afdc9154e9a06df7817a2/firebase-auth-18.1.0/AndroidManifest.xml:38:17-82
+226            <meta-data
+226-->[com.google.firebase:firebase-functions:18.1.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/8c9835c1033cf28199f28ab92eda9499/jetified-firebase-functions-18.1.0/AndroidManifest.xml:18:13-20:85
+227                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
+227-->[com.google.firebase:firebase-functions:18.1.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/8c9835c1033cf28199f28ab92eda9499/jetified-firebase-functions-18.1.0/AndroidManifest.xml:19:17-111
+228                android:value="com.google.firebase.components.ComponentRegistrar" />
+228-->[com.google.firebase:firebase-functions:18.1.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/8c9835c1033cf28199f28ab92eda9499/jetified-firebase-functions-18.1.0/AndroidManifest.xml:20:17-82
+229            <meta-data
+229-->[com.google.firebase:firebase-config:18.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/b8d3b8108d502a9cd0d1e8b92ff8ba3c/firebase-config-18.0.0/AndroidManifest.xml:9:13-11:85
+230                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+230-->[com.google.firebase:firebase-config:18.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/b8d3b8108d502a9cd0d1e8b92ff8ba3c/firebase-config-18.0.0/AndroidManifest.xml:10:17-117
+231                android:value="com.google.firebase.components.ComponentRegistrar" />
+231-->[com.google.firebase:firebase-config:18.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/b8d3b8108d502a9cd0d1e8b92ff8ba3c/firebase-config-18.0.0/AndroidManifest.xml:11:17-82
+232            <meta-data
+232-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/f8f16d5e151eb03da9ed95a28d282d62/play-services-measurement-api-17.0.0/AndroidManifest.xml:30:13-32:85
+233                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+233-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/f8f16d5e151eb03da9ed95a28d282d62/play-services-measurement-api-17.0.0/AndroidManifest.xml:31:17-139
+234                android:value="com.google.firebase.components.ComponentRegistrar" />
+234-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/f8f16d5e151eb03da9ed95a28d282d62/play-services-measurement-api-17.0.0/AndroidManifest.xml:32:17-82
+235            <meta-data
+235-->[com.google.firebase:firebase-iid:19.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cc006a10889bed60abc45e31db243d16/firebase-iid-19.0.1/AndroidManifest.xml:32:13-34:85
+236                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+236-->[com.google.firebase:firebase-iid:19.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cc006a10889bed60abc45e31db243d16/firebase-iid-19.0.1/AndroidManifest.xml:33:17-96
+237                android:value="com.google.firebase.components.ComponentRegistrar" />
+237-->[com.google.firebase:firebase-iid:19.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cc006a10889bed60abc45e31db243d16/firebase-iid-19.0.1/AndroidManifest.xml:34:17-82
+238            <meta-data
+238-->[com.google.firebase:firebase-abt:18.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/7409722b7eceba9cdab44f009ead0349/firebase-abt-18.0.0/AndroidManifest.xml:9:13-11:85
+239                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+239-->[com.google.firebase:firebase-abt:18.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/7409722b7eceba9cdab44f009ead0349/firebase-abt-18.0.0/AndroidManifest.xml:10:17-109
+240                android:value="com.google.firebase.components.ComponentRegistrar" />
+240-->[com.google.firebase:firebase-abt:18.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/7409722b7eceba9cdab44f009ead0349/firebase-abt-18.0.0/AndroidManifest.xml:11:17-82
+241        </service> <!-- This activity is critical for installing ARCore when it is not already present. -->
+242        <activity
+242-->[com.google.ar:core:1.7.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/dbbbea3a277ef4032aefa6776f9deada/core-1.7.0/AndroidManifest.xml:37:9-43:80
+243            android:name="com.google.ar.core.InstallActivity"
+243-->[com.google.ar:core:1.7.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/dbbbea3a277ef4032aefa6776f9deada/core-1.7.0/AndroidManifest.xml:38:13-62
+244            android:configChanges="keyboardHidden|orientation|screenSize"
+244-->[com.google.ar:core:1.7.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/dbbbea3a277ef4032aefa6776f9deada/core-1.7.0/AndroidManifest.xml:39:13-74
+245            android:excludeFromRecents="true"
+245-->[com.google.ar:core:1.7.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/dbbbea3a277ef4032aefa6776f9deada/core-1.7.0/AndroidManifest.xml:40:13-46
+246            android:exported="false"
+246-->[com.google.ar:core:1.7.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/dbbbea3a277ef4032aefa6776f9deada/core-1.7.0/AndroidManifest.xml:41:13-37
+247            android:launchMode="singleTop"
+247-->[com.google.ar:core:1.7.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/dbbbea3a277ef4032aefa6776f9deada/core-1.7.0/AndroidManifest.xml:42:13-43
+248            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+248-->[com.google.ar:core:1.7.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/dbbbea3a277ef4032aefa6776f9deada/core-1.7.0/AndroidManifest.xml:43:13-77
+249        <!--
+250             FirebaseMessagingService performs security checks at runtime,
+251             but set to not exported to explicitly avoid allowing another app to call it.
+252        -->
+253        <service
+253-->[com.google.firebase:firebase-messaging:19.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/6b8cc54582823f8db16b31272999e8c3/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:28:9-34:19
+254            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+254-->[com.google.firebase:firebase-messaging:19.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/6b8cc54582823f8db16b31272999e8c3/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:29:13-82
+255            android:exported="false" >
+255-->[com.google.firebase:firebase-messaging:19.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/6b8cc54582823f8db16b31272999e8c3/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:30:13-37
+256            <intent-filter android:priority="-500" >
+256-->[:shared] /Users/sibur/Work/Repositories/city-mobil/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:37:13-39:29
+257                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+257-->[:shared] /Users/sibur/Work/Repositories/city-mobil/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:38:17-78
+257-->[:shared] /Users/sibur/Work/Repositories/city-mobil/shared/build/intermediates/library_manifest/staging/AndroidManifest.xml:38:25-75
+258            </intent-filter>
+259        </service>
+260
+261        <activity
+261-->[com.google.firebase:firebase-auth:18.1.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/0f00945b4f3afdc9154e9a06df7817a2/firebase-auth-18.1.0/AndroidManifest.xml:24:9-31:50
+262            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+262-->[com.google.firebase:firebase-auth:18.1.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/0f00945b4f3afdc9154e9a06df7817a2/firebase-auth-18.1.0/AndroidManifest.xml:25:13-85
+263            android:excludeFromRecents="true"
+263-->[com.google.firebase:firebase-auth:18.1.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/0f00945b4f3afdc9154e9a06df7817a2/firebase-auth-18.1.0/AndroidManifest.xml:26:13-46
+264            android:exported="true"
+264-->[com.google.firebase:firebase-auth:18.1.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/0f00945b4f3afdc9154e9a06df7817a2/firebase-auth-18.1.0/AndroidManifest.xml:27:13-36
+265            android:launchMode="singleTask"
+265-->[com.google.firebase:firebase-auth:18.1.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/0f00945b4f3afdc9154e9a06df7817a2/firebase-auth-18.1.0/AndroidManifest.xml:28:13-44
+266            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+266-->[com.google.firebase:firebase-auth:18.1.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/0f00945b4f3afdc9154e9a06df7817a2/firebase-auth-18.1.0/AndroidManifest.xml:29:13-102
+267            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+267-->[com.google.firebase:firebase-auth:18.1.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/0f00945b4f3afdc9154e9a06df7817a2/firebase-auth-18.1.0/AndroidManifest.xml:30:13-72
+268        <activity
+268-->[com.google.android.gms:play-services-auth:15.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/879c9a3a8109838a8ac78573e96423b4/jetified-play-services-auth-15.0.1/AndroidManifest.xml:23:9-27:75
+269            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+269-->[com.google.android.gms:play-services-auth:15.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/879c9a3a8109838a8ac78573e96423b4/jetified-play-services-auth-15.0.1/AndroidManifest.xml:24:13-93
+270            android:excludeFromRecents="true"
+270-->[com.google.android.gms:play-services-auth:15.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/879c9a3a8109838a8ac78573e96423b4/jetified-play-services-auth-15.0.1/AndroidManifest.xml:25:13-46
+271            android:exported="false"
+271-->[com.google.android.gms:play-services-auth:15.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/879c9a3a8109838a8ac78573e96423b4/jetified-play-services-auth-15.0.1/AndroidManifest.xml:26:13-37
+272            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+272-->[com.google.android.gms:play-services-auth:15.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/879c9a3a8109838a8ac78573e96423b4/jetified-play-services-auth-15.0.1/AndroidManifest.xml:27:13-72
+273        <!--
+274            Service handling Google Sign-In user revocation. For apps that do not integrate with
+275            Google Sign-In, this service will never be started.
+276        -->
+277        <service
+277-->[com.google.android.gms:play-services-auth:15.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/879c9a3a8109838a8ac78573e96423b4/jetified-play-services-auth-15.0.1/AndroidManifest.xml:33:9-36:110
+278            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+278-->[com.google.android.gms:play-services-auth:15.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/879c9a3a8109838a8ac78573e96423b4/jetified-play-services-auth-15.0.1/AndroidManifest.xml:34:13-89
+279            android:exported="true"
+279-->[com.google.android.gms:play-services-auth:15.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/879c9a3a8109838a8ac78573e96423b4/jetified-play-services-auth-15.0.1/AndroidManifest.xml:35:13-36
+280            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+280-->[com.google.android.gms:play-services-auth:15.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/879c9a3a8109838a8ac78573e96423b4/jetified-play-services-auth-15.0.1/AndroidManifest.xml:36:13-107
+281
+282        <receiver
+282-->[com.google.firebase:firebase-iid:19.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cc006a10889bed60abc45e31db243d16/firebase-iid-19.0.1/AndroidManifest.xml:37:9-44:20
+283            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+283-->[com.google.firebase:firebase-iid:19.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cc006a10889bed60abc45e31db243d16/firebase-iid-19.0.1/AndroidManifest.xml:38:13-78
+284            android:exported="true"
+284-->[com.google.firebase:firebase-iid:19.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cc006a10889bed60abc45e31db243d16/firebase-iid-19.0.1/AndroidManifest.xml:39:13-36
+285            android:permission="com.google.android.c2dm.permission.SEND" >
+285-->[com.google.firebase:firebase-iid:19.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cc006a10889bed60abc45e31db243d16/firebase-iid-19.0.1/AndroidManifest.xml:40:13-73
+286            <intent-filter>
+286-->[com.google.firebase:firebase-iid:19.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cc006a10889bed60abc45e31db243d16/firebase-iid-19.0.1/AndroidManifest.xml:41:13-43:29
+287                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+287-->[com.google.firebase:firebase-iid:19.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cc006a10889bed60abc45e31db243d16/firebase-iid-19.0.1/AndroidManifest.xml:42:17-81
+287-->[com.google.firebase:firebase-iid:19.0.1] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cc006a10889bed60abc45e31db243d16/firebase-iid-19.0.1/AndroidManifest.xml:42:25-78
+288            </intent-filter>
+289        </receiver>
+290
+291        <activity
+291-->[com.google.android.gms:play-services-base:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/dfb4f6d471359544fc18c3760fa0c671/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+292            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+292-->[com.google.android.gms:play-services-base:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/dfb4f6d471359544fc18c3760fa0c671/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+293            android:exported="false"
+293-->[com.google.android.gms:play-services-base:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/dfb4f6d471359544fc18c3760fa0c671/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+294            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+294-->[com.google.android.gms:play-services-base:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/dfb4f6d471359544fc18c3760fa0c671/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+295
+296        <provider
+296-->[com.google.firebase:firebase-common:18.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/b884c19f41c78f3b78990e829b2e4977/firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
+297            android:name="com.google.firebase.provider.FirebaseInitProvider"
+297-->[com.google.firebase:firebase-common:18.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/b884c19f41c78f3b78990e829b2e4977/firebase-common-18.0.0/AndroidManifest.xml:13:13-77
+298            android:authorities="com.google.samples.apps.iosched.firebaseinitprovider"
+298-->[com.google.firebase:firebase-common:18.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/b884c19f41c78f3b78990e829b2e4977/firebase-common-18.0.0/AndroidManifest.xml:14:13-72
+299            android:exported="false"
+299-->[com.google.firebase:firebase-common:18.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/b884c19f41c78f3b78990e829b2e4977/firebase-common-18.0.0/AndroidManifest.xml:15:13-37
+300            android:initOrder="100" />
+300-->[com.google.firebase:firebase-common:18.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/b884c19f41c78f3b78990e829b2e4977/firebase-common-18.0.0/AndroidManifest.xml:16:13-36
+301
+302        <receiver
+302-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:29:9-33:20
+303            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+303-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:30:13-85
+304            android:enabled="true"
+304-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:31:13-35
+305            android:exported="false" >
+305-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:32:13-37
+306        </receiver>
+307        <receiver
+307-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:34:9-42:20
+308            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+308-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:35:13-100
+309            android:enabled="true"
+309-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:36:13-35
+310            android:exported="true"
+310-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:37:13-36
+311            android:permission="android.permission.INSTALL_PACKAGES" >
+311-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:38:13-69
+312            <intent-filter>
+312-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:39:13-41:29
+313                <action android:name="com.android.vending.INSTALL_REFERRER" />
+313-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:40:17-79
+313-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:40:25-76
+314            </intent-filter>
+315        </receiver>
+316
+317        <service
+317-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:44:9-47:40
+318            android:name="com.google.android.gms.measurement.AppMeasurementService"
+318-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:45:13-84
+319            android:enabled="true"
+319-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:46:13-35
+320            android:exported="false" />
+320-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:47:13-37
+321        <service
+321-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:48:9-52:72
+322            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+322-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:49:13-87
+323            android:enabled="true"
+323-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:50:13-35
+324            android:exported="false"
+324-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:51:13-37
+325            android:permission="android.permission.BIND_JOB_SERVICE" />
+325-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/sibur/.gradle/caches/transforms-2/files-2.1/cba637131a633b20b02f6e06ad118054/play-services-measurement-17.0.0/AndroidManifest.xml:52:13-69
+326
+327        <provider
+327-->[androidx.lifecycle:lifecycle-process:2.1.0-beta01] /Users/sibur/.gradle/caches/transforms-2/files-2.1/97a3654f33e0843eaa643404616233b2/lifecycle-process-2.1.0-beta01/AndroidManifest.xml:23:9-27:43
+328            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+328-->[androidx.lifecycle:lifecycle-process:2.1.0-beta01] /Users/sibur/.gradle/caches/transforms-2/files-2.1/97a3654f33e0843eaa643404616233b2/lifecycle-process-2.1.0-beta01/AndroidManifest.xml:24:13-79
+329            android:authorities="com.google.samples.apps.iosched.lifecycle-process"
+329-->[androidx.lifecycle:lifecycle-process:2.1.0-beta01] /Users/sibur/.gradle/caches/transforms-2/files-2.1/97a3654f33e0843eaa643404616233b2/lifecycle-process-2.1.0-beta01/AndroidManifest.xml:25:13-69
+330            android:exported="false"
+330-->[androidx.lifecycle:lifecycle-process:2.1.0-beta01] /Users/sibur/.gradle/caches/transforms-2/files-2.1/97a3654f33e0843eaa643404616233b2/lifecycle-process-2.1.0-beta01/AndroidManifest.xml:26:13-37
+331            android:multiprocess="true" />
+331-->[androidx.lifecycle:lifecycle-process:2.1.0-beta01] /Users/sibur/.gradle/caches/transforms-2/files-2.1/97a3654f33e0843eaa643404616233b2/lifecycle-process-2.1.0-beta01/AndroidManifest.xml:27:13-40
+332    </application>
+333
+334</manifest>

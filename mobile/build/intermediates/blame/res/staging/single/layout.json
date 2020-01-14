@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_feed_sessions_container.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_feed_sessions_container.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/fragment_schedule_filter.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/fragment_schedule_filter.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_map_variant.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_map_variant.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_agenda_light.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_agenda_light.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/fragment_search.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/fragment_search.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_filter_chip.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_filter_chip.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/fragment_onboarding_welcome_pre.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/fragment_onboarding_welcome_pre.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_session_info.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_session_info.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/include_agenda_contents.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/include_agenda_contents.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/fragment_settings.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_speaker.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_speaker.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/fragment_feed.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/fragment_feed.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/fragment_speaker.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/fragment_speaker.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_agenda_dark.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_agenda_dark.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/info_wifi_card.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/info_wifi_card.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_search_result.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_search_result.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_feed_announcement.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_feed_announcement.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_speaker_info.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_speaker_info.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/fragment_schedule.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/fragment_schedule.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_question.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_question.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/fragment_map.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/fragment_map.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_codelabs_header.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_codelabs_header.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_codelabs_information_card.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_codelabs_information_card.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/fragment_agenda.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/fragment_agenda.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/fragment_onboarding_signin.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/fragment_onboarding_signin.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/navigation_header.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/navigation_header.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/dialog_sign_out.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/dialog_sign_out.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_generic_section_header.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_generic_section_header.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_schedule_day_indicator.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_schedule_day_indicator.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/fragment_onboarding_welcome_during.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/fragment_onboarding_welcome_during.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/fragment_codelabs.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/fragment_codelabs.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/fragment_session_detail.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/fragment_session_detail.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_codelab.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_codelab.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_feed_session.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_feed_session.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/dialog_sign_in.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/dialog_sign_in.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_inline_tag.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_inline_tag.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/fragment_onboarding.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/fragment_onboarding.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_feed_moment.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_feed_moment.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/fragment_session_feedback.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/fragment_session_feedback.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/fragment_info_event.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/fragment_info_event.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_session.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_session.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/include_schedule_appbar.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/include_schedule_appbar.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/item_event_filter.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/item_event_filter.xml"
+    },
+    {
+        "merged": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/stripped.dir/layout/fragment_info.xml",
+        "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/layout/fragment_info.xml"
+    }
+]

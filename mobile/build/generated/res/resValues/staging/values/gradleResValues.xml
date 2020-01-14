@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from build type: staging -->
+    <string name="google_maps_key" translatable="false">AIzaSyAhJx57ikQH9rYc8IT8W3d2As5cGHMBvuo</string>
+    <!-- Values from default config. -->
+    <dimen name="map_camera_bearing">0.0</dimen>
+    <dimen name="map_camera_target_lat">37.425842</dimen>
+    <dimen name="map_camera_target_lng">-122.079933</dimen>
+    <dimen name="map_camera_tilt">0</dimen>
+    <dimen name="map_camera_zoom">16.4</dimen>
+    <dimen name="map_viewport_max_zoom">19.75</dimen>
+    <dimen name="map_viewport_min_zoom">16</dimen>
+
+</resources>

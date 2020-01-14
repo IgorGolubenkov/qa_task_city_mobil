@@ -1,0 +1,41 @@
+{
+  "8e1396a71dc8aab938c43163cf0347d7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9031b905701602",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578828995675,
+        "stop" : 1578829002583,
+        "duration" : 6908
+      }
+    } ]
+  },
+  "e4f8a6e1b373bc4c4a1df39c50a41c2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a61249395ed8e31d",
+      "status" : "broken",
+      "statusDetails" : "Delegate runner 'androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner' for AndroidJUnit4 could not be loaded.",
+      "time" : {
+        "start" : 1578816799968,
+        "stop" : 1578816800047,
+        "duration" : 79
+      }
+    } ]
+  }
+}

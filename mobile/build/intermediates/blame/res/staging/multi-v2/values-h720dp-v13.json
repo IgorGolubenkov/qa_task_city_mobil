@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/sibur/.gradle/caches/transforms-2/files-2.1/5e19d06ba54e90575cc0302dc093745b/appcompat-1.1.0-beta01/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

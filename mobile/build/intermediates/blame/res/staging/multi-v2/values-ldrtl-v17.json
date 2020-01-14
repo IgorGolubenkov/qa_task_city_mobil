@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/merged.dir/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/values-ldrtl/dimens.xml",
+                    "from": {
+                        "startLines": "19,20,21,22",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "751,822,892,953",
+                        "endColumns": "70,69,60,61",
+                        "endOffsets": "817,887,948,1010"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,196,257",
+                        "endColumns": "70,69,60,61",
+                        "endOffsets": "121,191,252,314"
+                    }
+                }
+            ]
+        }
+    ]
+}

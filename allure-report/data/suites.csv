@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sun Jan 12 11:13:19 MSK 2020","Sun Jan 12 11:13:20 MSK 2020","79","","com.google.samples.apps.iosched.tests.igor_city_mobile_task.NavigationTest","","com.google.samples.apps.iosched.tests.igor_city_mobile_task.NavigationTest","initializationError","initializationError",""
+"passed","Sun Jan 12 14:36:35 MSK 2020","Sun Jan 12 14:36:42 MSK 2020","6908","","com.google.samples.apps.iosched.tests.igor_city_mobile_task.NavigationTest","","com.google.samples.apps.iosched.tests.igor_city_mobile_task.NavigationTest","navigationValidTest","navigationValidTest",""

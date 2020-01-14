@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/merged.dir/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/sibur/.gradle/caches/transforms-2/files-2.1/853bfec18d55a89f04a91973f7b8b0a2/jetified-firebase-ui-auth-4.0.0/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,186,247,302,356,414",
+                        "endColumns": "69,60,60,54,53,57,56",
+                        "endOffsets": "120,181,242,297,351,409,466"
+                    }
+                },
+                {
+                    "source": "/Users/sibur/.gradle/caches/transforms-2/files-2.1/bb3f0446ce271fbabc6624ee663bdc21/material-1.1.0-alpha07/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,109",
+                        "endColumns": "53,60",
+                        "endOffsets": "104,165"
+                    },
+                    "to": {
+                        "startLines": "9,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "471,525",
+                        "endColumns": "53,60",
+                        "endOffsets": "520,581"
+                    }
+                }
+            ]
+        }
+    ]
+}

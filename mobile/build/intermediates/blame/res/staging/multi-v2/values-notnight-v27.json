@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/merged.dir/values-notnight-v27/values-notnight-v27.xml",
+            "map": [
+                {
+                    "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/values-notnight-v27/config.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "668",
+                        "endColumns": "49",
+                        "endOffsets": "713"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    }
+                },
+                {
+                    "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/values-notnight-v27/colors.xml",
+                    "from": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "742",
+                        "endColumns": "68",
+                        "endOffsets": "806"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "68",
+                        "endOffsets": "169"
+                    }
+                }
+            ]
+        }
+    ]
+}

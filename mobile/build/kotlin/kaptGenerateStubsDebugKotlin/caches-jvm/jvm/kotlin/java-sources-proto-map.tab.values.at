@@ -1,0 +1,628 @@
+day2
+	day2_date
+day2_day_date
+day3
+	day3_date
+day3_day_date
+default_web_client_id
+dialog_sign_in_content
+dialog_sign_out_content
+	dont_show
+enable_my_location
+event_afterhours_description
+event_afterhours_title
+event_codelabs_description
+event_codelabs_title
+event_meals_description
+event_meals_title
+event_officehours_description
+event_officehours_title
+event_sandbox_description
+event_sandbox_title
+event_sessions_description
+event_sessions_title
+event_star_error
+event_starred
+event_title
+event_types_header
+event_unstarred
+expanded
+)exposed_dropdown_menu_content_description
+!fab_transformation_scrim_behavior
+!fab_transformation_sheet_behavior
+facebook_application_id
+facebook_login_protocol_scheme
+#faq_accessibility_needs_description
+faq_accessibility_needs_title
+"faq_after_dark_program_description
+faq_after_dark_program_title
+,faq_best_way_to_get_to_shoreline_description
+&faq_best_way_to_get_to_shoreline_title
+4faq_can_i_reserve_sessions_ahead_of_time_description
+.faq_can_i_reserve_sessions_ahead_of_time_title
+/faq_community_guidelines_and_policy_description
+)faq_community_guidelines_and_policy_title
+'faq_how_can_i_stay_informed_description
+!faq_how_can_i_stay_informed_title
+*faq_if_i_lose_something_onsite_description
+$faq_if_i_lose_something_onsite_title
+#faq_onsite_food_options_description
+faq_onsite_food_options_title
+2faq_sessions_be_live_streamed_question_description
+,faq_sessions_be_live_streamed_question_title
+4faq_support_for_expectant_mothers_parent_description
+/faq_support_for_expectant_mothers_parents_title
+	faq_title
+0faq_want_a_front_row_seat_at_keynote_description
+*faq_want_a_front_row_seat_at_keynote_title
+%faq_want_to_celebrate_i_o_description
+faq_want_to_celebrate_i_o_title
+"faq_what_should_i_wear_description
+faq_what_should_i_wear_title
+faq_when_and_where_description
+faq_when_and_where_title
+2faq_where_and_when_can_i_pick_up_badge_description
+,faq_where_and_when_can_i_pick_up_badge_title
+,faq_will_the_sessions_be_english_description
+&faq_will_the_sessions_be_english_title
+'fcm_fallback_notification_channel_label
+feature_explore_io
+feed_announcement_title
+feed_loading_error
+feed_no_saved_events
+feed_not_available
+feed_saved_events
+feed_upcoming_events
+feed_view_all_events
+feed_view_your_schedule
+feed_watch_live_stream
+feedback_q1_label_end
+feedback_q1_label_start
+feedback_q1_text
+feedback_q2_label_end
+feedback_q2_label_start
+feedback_q2_text
+feedback_q3_label_end
+feedback_q3_label_start
+feedback_q3_text
+feedback_q4_label_end
+feedback_q4_label_start
+feedback_q4_text
+feedback_submit
+feedback_thank_you
+filters
+#firebase_auth_no_network_connection
+firebase_auth_unknown_error
+firebase_database_url
+fui_accessibility_logo
+fui_button_text_save
+fui_button_text_send
+fui_code_sent
+fui_confirm_recovery_body
+fui_continue_phone_login
+fui_default_toolbar_title
+fui_done
+ fui_email_account_creation_error
+fui_email_field_name
+fui_email_hint
+fui_enter_confirmation_code
+fui_error_email_does_not_exist
+fui_error_invalid_password
+fui_error_quota_exceeded
+fui_error_session_expired
+fui_error_too_many_attempts
+fui_error_unknown
+fui_idp_name_facebook
+fui_idp_name_google
+fui_idp_name_twitter
+fui_incorrect_code_dialog_body
+.fui_incorrect_code_dialog_positive_button_text
+fui_invalid_email_address
+fui_invalid_phone_number
+fui_missing_email_address
+fui_name_hint
+fui_next_default
+fui_password_hint
+fui_password_recovery_body
+fui_phone_hint
+fui_pp_footer
+fui_pp_only
+fui_privacy_policy
+%fui_progress_dialog_checking_accounts
+fui_progress_dialog_loading
+fui_progress_dialog_sending
+fui_progress_dialog_signing_in
+fui_progress_dialog_signing_up
+fui_required_field
+fui_resend_code
+fui_resend_code_in
+fui_resending
+fui_retrieving_sms
+fui_sign_in_default
+fui_sign_in_with_email
+fui_sign_in_with_facebook
+fui_sign_in_with_google
+fui_sign_in_with_phone
+fui_sign_in_with_phone_number
+fui_sign_in_with_twitter
+$fui_sms_privacy_policy_only_extended
+fui_sms_terms_of_service
+4fui_sms_terms_of_service_and_privacy_policy_extended
+&fui_sms_terms_of_service_only_extended
+fui_terms_of_service
+"fui_title_confirm_recover_password
+#fui_title_recover_password_activity
+fui_title_register_email
+!fui_title_welcome_back_idp_prompt
+&fui_title_welcome_back_password_prompt
+fui_tos_and_pp
+fui_tos_and_pp_footer
+fui_tos_footer
+fui_tos_only
+fui_trouble_signing_in
+fui_verified
+fui_verify_phone_number
+fui_verify_phone_number_title
+fui_verify_your_phone_title
+fui_verifying
+fui_welcome_back_email_header
+fui_welcome_back_idp_header
+fui_welcome_back_idp_prompt
+%fui_welcome_back_password_prompt_body
+gcm_defaultSenderId
+google_api_key
+google_app_id
+google_crash_reporting_api_key
+google_maps_key
+google_storage_bucket
+got_it
+#hide_bottom_view_on_scroll_behavior
+icon_content_description
+intent_chooser_session_detail
+join_network
+manage_google_account
+manage_google_account_url
+map_variant_after_dark
+map_variant_concert
+map_variant_daytime
+menu_item_calendar
+menu_item_session_location
+menu_item_session_star
+menu_item_share_session
+)mtrl_badge_numberless_content_description
+(mtrl_chip_close_icon_content_description
+#mtrl_exceed_max_badge_number_suffix
+mtrl_picker_cancel
+mtrl_picker_confirm
+mtrl_picker_date_format
+ mtrl_picker_date_header_selected
+mtrl_picker_date_header_title
+"mtrl_picker_date_header_unselected
+!mtrl_picker_range_header_selected
+mtrl_picker_range_header_title
+#mtrl_picker_range_header_unselected
+my_location_rationale
+#nav_app_bar_navigate_up_description
+#nav_app_bar_open_drawer_description
+navigate_up
+no
+no_network_connection
+no_network_description
+'notifications_preference_dialog_content
+%notifications_preference_dialog_title
+onboarding_date_location
+onboarding_get_started
+onboarding_label_days
+onboarding_label_hours
+onboarding_label_mins
+onboarding_label_seconds
+onboarding_signin
+#onboarding_welcome_google_io_during
+!onboarding_welcome_google_io_post
+ onboarding_welcome_google_io_pre
+ onboarding_welcome_to_google_i_o
+oss_file
+paragraph_delimiter
+#password_toggle_content_description
+path_password_eye
+%path_password_eye_mask_strike_through
+path_password_eye_mask_visible
+path_password_strike_through
+%phone_does_not_support_arcore_message
+#phone_does_not_support_arcore_title
+please_rate_session
+privacy_policy_url
+
+project_id
+rate_session
+related_apps_header
+remove
+remove_reservation_content
+remove_reservation_title
+reservation_cancel_succeeded
+reservation_denied_clash
+reservation_denied_cutoff
+reservation_denied_unknown
+reservation_disabled
+reservation_error
+reservation_new
+reservation_pending
+reservation_replaced
+reservation_request_succeeded
+reservation_reservable
+reservation_reserved
+reservation_waitlist_available
+reservation_waitlisted
+reset
+schedule_filters_empty
+"schedule_hint_reserve_session_seat
+schedule_hint_star_event
+schedule_hint_title
+search_menu_title
+search_schedule_hint
+search_schedule_no_results
+session_detail_header_aspect
+session_detail_related_header
+session_detail_speakers_header
+session_duration_location
+session_feedback_notifications
+session_notifications
+settings_enable_notifications
+settings_oss_licenses
+settings_privacy_policy
+(settings_send_anonymous_usage_statistics
+settings_theme_battery
+settings_theme_dark
+settings_theme_light
+settings_theme_system
+settings_theme_title
+settings_time_zone_label
+settings_title
+settings_tos
+share_text_session_detail
+sign_in
+sign_out
+speaker_delimiter
+speaker_events_subhead
+speaker_link_github
+speaker_link_linkedin
+speaker_link_twitter
+speaker_link_website
+starred_and_reserved
+starred_and_reserved_short
+start_codelab
+starting_soon
+%status_bar_notification_info_overflow
+swap
+swap_reservation_content
+swap_reservation_title
+title_explore_io
+
+title_home
+
+title_info
+	title_map
+title_schedule
+tos_url
+$travel_airport_transfers_description
+travel_airport_transfers_title
+travel_biking_description
+travel_biking_title
+,travel_for_public_transportation_description
+&travel_for_public_transportation_title
++travel_getting_to_mountain_view_description
+%travel_getting_to_mountain_view_title
+'travel_getting_to_shoreline_description
+!travel_getting_to_shoreline_title
+travel_hotels_description
+travel_hotels_title
+#travel_off_site_parking_description
+travel_off_site_parking_title
+travel_ridesharing_description
+travel_ridesharing_title
+"travel_shuttle_service_description
+travel_shuttle_service_title
+travel_title
+ travel_what_to_bring_description
+travel_what_to_bring_title
+twitter_consumer_key
+twitter_consumer_secret
+version_name
+view_sessions_text
+waitlist_cancel_succeeded
+waitlist_new
+welcome
+wifi_header
+wifi_install_clipboard_message
+wifi_install_success
+wifi_network_and_password
+yes   @
+ 
+ 
+
+
+
+ 
+ 
+
+ 
+
+ ç   é&20	B4	*00*000*00J0H²	J02 0²	H&J !*0020²	HÀ>J@!*0020²	2"0²	H²	$(%À>J&02'0²	H²	À>J8&02'0²	2)0²	2+0H²	À>JX&02'0²	2)0²	2+02"0²	H²	²	$(%À>J?&02'0²	2"0²	H²	²	$(%À>R0X²	R*00X…²	  è
+com
+google
+samples
+apps
+iosched
+databinding
+ItemFilterChipBinding
+androidx
+ViewDataBinding
+_bindingComponent
+kotlin
+Any
+_root
+android
+view
+View
+_localFieldCount
+Int
+filterLabel
+ui
+schedule
+filters
+EventFilterView
+
+annotation
+NonNull
+mEventFilter
+EventFilter
+Bindable
+getEventFilter
+Nullable
+setEventFilter
+Unit
+eventFilter
+bind
+	component
+
+Deprecated
+message
+Deprecated in Java
+inflate
+inflater
+LayoutInflater
+root
+	ViewGroup
+attachToRoot
+Boolean   Ê
+ 
+ 
+
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+# 
+( 
+* 
+
+, Ù   Ì&20	B&	*00*000J0H²	J020²	H&J *0020²	HÀ>J@*0020²	20²	H²	 (!À>J"02#0²	H²	À>J8"02#0²	2%0²	2'0H²	À>JX"02#0²	2%0²	2'020²	H²	²	 (!À>J?"02#0²	20²	H²	²	 (!À>R*00X…²	  Ë
+com
+google
+samples
+apps
+iosched
+databinding
+ItemGenericSectionHeaderBinding
+androidx
+ViewDataBinding
+_bindingComponent
+kotlin
+Any
+_root
+android
+view
+View
+_localFieldCount
+Int
+mSectionHeader
+ui
+SectionHeader
+Bindable
+getSectionHeader
+
+annotation
+Nullable
+setSectionHeader
+Unit
+sectionHeader
+bind
+NonNull
+	component
+
+Deprecated
+message
+Deprecated in Java
+inflate
+inflater
+LayoutInflater
+root
+	ViewGroup
+attachToRoot
+Boolean   ¶
+ 
+ 
+
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+$ 
+& 
+
+( ø   &20	Bˆ	*00*000*00*00*00*00*00*00*00J.0H²	#J00H²	#J10"H²	#J20$240²	#H&J50$260²	#H&J70$280"²	#H&J 9*0020²	HÀ>J@9*0020²	2:0²	#H²	%<(=À>J>02?0&²	H²	À>J8>02?0&²	2A0'²	#2C0(H²	À>JX>02?0&²	2A0'²	#2C0(2:0²	#H²	²	%<(=À>J?>02?0&²	2:0²	#H²	²	%<(=À>R0X²	R0X²	R0X²	R *00X…²	R%*00X…²	R**0"0"X…²	R0X²	R0X²	R0X²	R0X²	  þ
+com
+google
+samples
+apps
+iosched
+databinding
+ItemFeedSessionBinding
+androidx
+ViewDataBinding
+_bindingComponent
+kotlin
+Any
+_root
+android
+view
+View
+_localFieldCount
+Int
+keylineLeft
+constraintlayout
+widget
+	Guideline
+keylineRight
+location
+TextView
+reservedIcon
+	ImageView
+starredIcon
+time
+title
+
+annotation
+NonNull
+mEventListener
+ui
+feed
+FeedEventListener
+Bindable
+mTimeZoneId
+org
+threeten
+bp
+ZoneId
+mUserSession
+model
+userdata
+UserSession
+getEventListener
+Nullable
+getTimeZoneId
+getUserSession
+setEventListener
+Unit
+eventListener
+setTimeZoneId
+
+timeZoneId
+setUserSession
+userSession
+bind
+	component
+
+Deprecated
+message
+Deprecated in Java
+inflate
+inflater
+LayoutInflater
+root
+	ViewGroup
+attachToRoot
+Boolean  
+ 
+ 
+
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+!
+"
+# 
+$ 
+&
+'
+(
+) 
++
+ ,
+!- 
+/ 
+
+3 
+
+; 
+@ 
+B 
+
+D 

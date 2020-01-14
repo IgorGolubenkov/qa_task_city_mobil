@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/igor/work/my/citimobile/mobile/build/intermediates/incremental/mergeDebugResources/merged.dir/values-notnight-v27/values-notnight-v27.xml",
+            "map": [
+                {
+                    "source": "/Users/igor/work/my/citimobile/mobile/src/main/res/values-notnight-v27/colors.xml",
+                    "from": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "742",
+                        "endColumns": "68",
+                        "endOffsets": "806"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "68",
+                        "endOffsets": "169"
+                    }
+                },
+                {
+                    "source": "/Users/igor/work/my/citimobile/mobile/src/main/res/values-notnight-v27/config.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "668",
+                        "endColumns": "49",
+                        "endOffsets": "713"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    }
+                }
+            ]
+        }
+    ]
+}

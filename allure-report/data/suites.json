@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "com.google.samples.apps.iosched.tests.igor_city_mobile_task.NavigationTest",
+    "children" : [ {
+      "name" : "initializationError",
+      "uid" : "a61249395ed8e31d",
+      "parentUid" : "9227a70c02b6c00207b34f9ddff54442",
+      "status" : "broken",
+      "time" : {
+        "start" : 1578816799968,
+        "stop" : 1578816800047,
+        "duration" : 79
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "navigationValidTest",
+      "uid" : "d9031b905701602",
+      "parentUid" : "9227a70c02b6c00207b34f9ddff54442",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578828995675,
+        "stop" : 1578829002583,
+        "duration" : 6908
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9227a70c02b6c00207b34f9ddff54442"
+  } ]
+}

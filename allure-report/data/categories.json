@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Delegate runner 'androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner' for AndroidJUnit4 could not be loaded.",
+      "children" : [ {
+        "name" : "initializationError",
+        "uid" : "a61249395ed8e31d",
+        "parentUid" : "74fb43a62daa86f8cbc17185b640c80a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1578816799968,
+          "stop" : 1578816800047,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74fb43a62daa86f8cbc17185b640c80a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

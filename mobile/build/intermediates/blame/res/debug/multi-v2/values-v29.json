@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/igor/work/my/citimobile/mobile/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v29/values-v29.xml",
+            "map": [
+                {
+                    "source": "/Users/igor/work/my/citimobile/mobile/src/main/res/values-v29/themes.xml",
+                    "from": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "705",
+                        "endLines": "24",
+                        "endColumns": "12",
+                        "endOffsets": "1060"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "410"
+                    }
+                }
+            ]
+        }
+    ]
+}

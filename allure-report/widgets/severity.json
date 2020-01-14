@@ -1,0 +1,21 @@
+[ {
+  "uid" : "d9031b905701602",
+  "name" : "navigationValidTest",
+  "time" : {
+    "start" : 1578828995675,
+    "stop" : 1578829002583,
+    "duration" : 6908
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a61249395ed8e31d",
+  "name" : "initializationError",
+  "time" : {
+    "start" : 1578816799968,
+    "stop" : 1578816800047,
+    "duration" : 79
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

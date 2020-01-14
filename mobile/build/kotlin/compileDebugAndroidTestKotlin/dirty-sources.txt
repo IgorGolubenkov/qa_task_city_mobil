@@ -1,0 +1,12 @@
+/Users/igor/work/my/citimobile/mobile/src/androidTest/java/com/google/samples/apps/iosched/tests/ui/ScheduleTest.kt
+/Users/igor/work/my/citimobile/mobile/src/androidTest/java/com/google/samples/apps/iosched/tests/ui/InfoTest.kt
+/Users/igor/work/my/citimobile/mobile/src/androidTest/java/com/google/samples/apps/iosched/tests/ui/CodelabTest.kt
+/Users/igor/work/my/citimobile/mobile/src/androidTest/java/com/google/samples/apps/iosched/tests/ui/SessionDetailTest.kt
+/Users/igor/work/my/citimobile/mobile/src/androidTest/java/com/google/samples/apps/iosched/tests/ui/HomeTest.kt
+/Users/igor/work/my/citimobile/mobile/src/androidTest/java/com/google/samples/apps/iosched/tests/ui/SettingsTest.kt
+/Users/igor/work/my/citimobile/mobile/src/androidTest/java/com/google/samples/apps/iosched/tests/ui/AgendaTest.kt
+/Users/igor/work/my/citimobile/mobile/src/androidTest/java/com/google/samples/apps/iosched/tests/ui/MapTest.kt
+/Users/igor/work/my/citimobile/mobile/src/androidTest/java/com/google/samples/apps/iosched/tests/ui/MainActivityTestRule.kt
+/Users/igor/work/my/citimobile/mobile/src/androidTest/java/com/google/samples/apps/iosched/tests/SyncTaskExecutorRule.kt
+/Users/igor/work/my/citimobile/mobile/src/androidTest/java/com/google/samples/apps/iosched/tests/FixedTimeRule.kt
+/Users/igor/work/my/citimobile/mobile/src/androidTest/java/com/google/samples/apps/iosched/tests/SetPreferencesRule.kt

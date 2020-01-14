@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/merged.dir/values-h600dp-v13/values-h600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/values-h600dp/dimens.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "668",
+                        "endColumns": "48",
+                        "endOffsets": "712"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

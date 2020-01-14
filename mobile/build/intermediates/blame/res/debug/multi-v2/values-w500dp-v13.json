@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/igor/work/my/citimobile/mobile/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w500dp-v13/values-w500dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/igor/work/my/citimobile/mobile/src/main/res/values-w500dp/dimens.xml",
+                    "from": {
+                        "startLines": "22,21,20,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "842,785,730,669",
+                        "endColumns": "57,56,54,60",
+                        "endOffsets": "895,837,780,725"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,113,170,225",
+                        "endColumns": "57,56,54,60",
+                        "endOffsets": "108,165,220,281"
+                    }
+                }
+            ]
+        }
+    ]
+}

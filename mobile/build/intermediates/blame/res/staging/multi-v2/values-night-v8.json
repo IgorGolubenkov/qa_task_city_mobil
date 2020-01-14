@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/build/intermediates/incremental/mergeStagingResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/sibur/.gradle/caches/transforms-2/files-2.1/5e19d06ba54e90575cc0302dc093745b/appcompat-1.1.0-beta01/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "12,13,14,15,16,17,18,35",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "676,746,830,914,1010,1112,1214,3170",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "741,825,909,1005,1107,1209,1303,3254"
+                    }
+                },
+                {
+                    "source": "/Users/sibur/Work/Repositories/qa_task_city_mobil/mobile/src/main/res/values-night/colors.xml",
+                    "from": {
+                        "startLines": "22,20,18,19,33,34,29,26,25,32",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "856,797,668,729,1360,1456,1187,1035,958,1305",
+                        "endColumns": "55,57,60,67,95,48,61,57,57,54",
+                        "endOffsets": "907,850,724,792,1451,1500,1244,1088,1011,1355"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,111,169,230,298,394,443,505,563,621",
+                        "endColumns": "55,57,60,67,95,48,61,57,57,54",
+                        "endOffsets": "106,164,225,293,389,438,500,558,616,671"
+                    }
+                },
+                {
+                    "source": "/Users/sibur/.gradle/caches/transforms-2/files-2.1/bb3f0446ce271fbabc6624ee663bdc21/material-1.1.0-alpha07/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,143,267,369,471,587,689,803,931,1047,1169,1305,1425,1559,1679,1791,1917",
+                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,137",
+                        "endOffsets": "138,262,364,466,582,684,798,926,1042,1164,1300,1420,1554,1674,1786,1912,2050"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1308,1396,1520,1622,1724,1840,1942,2056,2184,2300,2422,2558,2678,2812,2932,3044,3259",
+                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,137",
+                        "endOffsets": "1391,1515,1617,1719,1835,1937,2051,2179,2295,2417,2553,2673,2807,2927,3039,3165,3392"
+                    }
+                }
+            ]
+        }
+    ]
+}

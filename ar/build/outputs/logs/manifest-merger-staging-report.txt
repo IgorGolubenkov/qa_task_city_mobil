@@ -1,0 +1,59 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:18:1-31:12
+INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:18:1-31:12
+INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:18:1-31:12
+INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:18:1-31:12
+INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:18:1-31:12
+INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:18:1-31:12
+INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:18:1-31:12
+	package
+		ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:19:5-49
+		INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml
+		INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml
+		ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:18:1-31:12
+		INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml
+		ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:18:1-31:12
+		INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:18:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:21:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:22:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:23:22-78
+application
+ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:25:5-30:19
+activity#com.google.samples.apps.iosched.ar.ArActivity
+ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:27:9-29:74
+	android:screenOrientation
+		ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:28:13-49
+	android:theme
+		ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:29:13-71
+	android:name
+		ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml:27:19-45
+uses-sdk
+INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml
+INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml
+INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml
+INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml
+		ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml
+		INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml
+		ADDED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml
+		INJECTED from /Users/sibur/Work/Repositories/city-mobil/ar/src/main/AndroidManifest.xml
